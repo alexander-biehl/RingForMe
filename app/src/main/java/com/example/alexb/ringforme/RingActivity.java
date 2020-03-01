@@ -1,6 +1,5 @@
 package com.example.alexb.ringforme;
 
-import android.arch.lifecycle.LifecycleActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,7 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class RingActivity extends LifecycleActivity/*AppCompatActivity*/ {
+public class RingActivity extends /*LifecycleActivity*/AppCompatActivity {
 
     @BindView(R.id.fab)
     FloatingActionButton fab;
